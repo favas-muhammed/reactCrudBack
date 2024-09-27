@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter",
+      "author": "JKR",
+      "pages": 350,
+      "language": "english"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter 2",
+      "author": "JKR",
+      "pages": "450",
+      "language": "english"
+    },
+    {
+      "title": "ert",
+      "author": "ert",
+      "pages": "23",
+      "language": "sdfr",
+      "id": 3
+    },
+    {
+      "title": "test",
+      "author": "dfgh",
+      "pages": "345",
+      "language": "dfg",
+      "id": 4
+    }
+  ]
+}
