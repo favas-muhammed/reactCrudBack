@@ -4,7 +4,9 @@ const morgan = require('morgan')
 
 const server = jsonServer.create()
 
-const router = jsonServer.router('db.json')
+const dbData = require('db.json')
+
+const router = jsonServer.router(dbData)
 
 const middlewares = jsonServer.defaults()
 const PORT = process.env.PORT
