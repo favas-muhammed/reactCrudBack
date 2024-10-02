@@ -4,7 +4,7 @@ const morgan = require('morgan')
 
 const server = jsonServer.create()
 
-const dbData = require('db.json')
+const dbData = require('./db.json')
 
 const router = jsonServer.router(dbData)
 
